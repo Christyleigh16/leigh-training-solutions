@@ -397,3 +397,9 @@ h4{
   background-color: #6C6F6F;
   color: #E1AD3D;
 }
+
+.help{
+  background-image: linear-gradient(to bottom, #303334, #4e5253, #6e7374, #909697, #b4babc);
+  height: 500px;
+  max-width: 100%;
+}
