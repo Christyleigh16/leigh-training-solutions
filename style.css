@@ -342,3 +342,58 @@ footer{
   display:inline-block;
 
 }
+
+h3{
+  font-size: 30px;
+  text-align: center;
+  color: #B4BABC;
+  margin-bottom: 20px;
+}
+h4{
+  font-size: 20px;
+  color: #B4BABC;
+  margin-left: 10px;
+
+
+}
+.contact{
+  background-image: linear-gradient(to bottom, #303334, #4e5253, #6e7374, #909697, #b4babc);
+  height: 500px;
+  max-width: 100%;
+}
+#fullname{
+  border-radius: 5px;
+  width: 350px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+
+}
+#emailaddress{
+  border-radius: 5px;
+  width: 350px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+#Additional-info{
+  padding: 20px;
+  margin: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
+  border-radius: 5px;
+  background-color: #B4BABC;
+  border-color: #303334;
+
+}
+#submit{
+  background-color: #E1AD3D;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 20px;
+  border-color: #303334;
+  font-weight: bold;
+
+}
+#submit:hover{
+  background-color: #6C6F6F;
+  color: #E1AD3D;
+}
