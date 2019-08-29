@@ -430,3 +430,38 @@ h4{
   color: #5E6362;
 
 }
+.pdf{
+  padding: 150px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 30px;
+  color: #fafafa;
+}
+.pdf1{
+  font-size: 200px;
+  color: #E1AD3D;
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 100px;
+  padding-bottom: 20px;
+}
+.pdf1:hover{
+
+}
+.pdf2{
+  font-size: 200px;
+  color: #E1AD3D;
+  margin-top: 30px;
+  padding: 100px;
+  padding-bottom: 20px;
+  padding-right: 130px;
+
+}
+.pdf3{
+  font-size: 200px;
+  color:#E1AD3D;
+ margin-top: 30px;
+ margin-right: 30px;
+ padding: 100px;
+ padding-bottom: 20px;
+}
