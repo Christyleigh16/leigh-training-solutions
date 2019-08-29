@@ -409,21 +409,7 @@ h4{
   height: 400px;
   max-width: 100%;
 }
-.box1{
-  height: 400px;
-  width:400px;
-  background-color: #5E6362;
-}
-.box2{
-  height: 400px;
-  width:400px;
-  background-color: #5E6362;
-}
-.box3{
-  height: 400px;
-  width:400px;
-  background-color: #5E6362;
-}
+
 #guide{
   display: inline-block;
   font-size: 200px;
@@ -446,6 +432,11 @@ h4{
   padding-bottom: 20px;
 }
 .pdf1:hover{
+  color:#6C6F6F;
+  transition-property: color;
+  transition-delay: 0.3s;
+  transition-duration: 0.5s;
+
 
 }
 .pdf2{
@@ -457,6 +448,21 @@ h4{
   padding-right: 130px;
 
 }
+.pdf2:hover{
+  color:#6C6F6F;
+  transition-property: color;
+  transition-delay: 0.3s;
+  transition-duration: 0.5s;
+
+}
+iframe{
+  display: inline-block;
+  height: 300px;
+  width: 500px;
+  padding: 50px;
+
+
+}
 .pdf3{
   font-size: 200px;
   color:#E1AD3D;
@@ -464,4 +470,25 @@ h4{
  margin-right: 30px;
  padding: 100px;
  padding-bottom: 20px;
+}
+.pdf3:hover{
+  color:#6C6F6F;
+  transition-property: color;
+  transition-delay: 0.3s;
+  transition-duration: 0.5s;
+
+
+}
+.youtube{
+ font-size: 200px;
+ color:#fafafa;
+ height: 300px;
+ width: 300px;
+ padding: 50px;
+ padding-left: 100px;
+ padding-right: 0px;
+}
+.youtube:hover{
+  color: red;
+  transition-delay: 0.3s;
 }
