@@ -306,6 +306,14 @@ footer{
   padding: 10px;
   padding-bottom: 0px;
 
+
+}
+@media only screen and (max-width: 600px) {
+  badge {
+    width: 100%;
+  }
+}
+
 }
 
 #find{
@@ -423,6 +431,13 @@ h4{
   font-size: 30px;
   color: #fafafa;
 }
+.pdf4{
+  padding: 150px;
+  padding-bottom: 0px;
+  padding-top: 20px;
+  font-size: 30px;
+  color: #fafafa;
+}
 .pdf1{
   font-size: 200px;
   color: #E1AD3D;
@@ -491,4 +506,5 @@ iframe{
 .youtube:hover{
   color: red;
   transition-delay: 0.3s;
+  transition-duration: 0.5s;
 }
