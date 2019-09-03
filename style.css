@@ -2,47 +2,56 @@
 
 body{
   background-image: linear-gradient(to right, #070808, #070c0d, #090f12, #0d1116, #131219);
-  font-family: Roboto;
+  background-size: cover;
+  font-family: Roboto; serif;
+
+}
+#main-image{
+  background-image: url(Images/Data-Science-home-slider-990x340.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+}
+main{
+width: 100%;
 }
 
 .container-fluid{
-  margin: 0px;
-  margin-right: 0px;
-  padding: 0px;
-  margin-left: 0px;
-
+  margin: 0 0 0 0;
+  padding: 0;
 }
 
 header{
   font-size: 10px;
 }
+
 .landing{
   max-width: 100%;
 }
+
 h4{
   float: left;
   color: #fafafa;
-  font-family: Roboto;
+  font-family:Roboto,sans-serif,helvetica;
   font-size: 20px;
-
-
 }
+
 h2{
   font-size: 20px;
   position: absolute;
 }
+
 h5{
   color: #fafafa;
   font-size: 18px;
   font-family: Roboto;
   font-weight: bold;
   text-transform: uppercase;
-  padding: 20px;
-  padding-top: 30px;
-  padding-bottom: 0px;
-  margin:0px;
-
+  padding: 30px 20px 0 20px;
+  margin:0;
 }
+
 .info{
   color: #fafafa;
   font-size: 15px;
@@ -51,46 +60,39 @@ h5{
   padding: 0px;
   margin: 0px;
 }
+
 .info1{
   color: #fafafa;
   font-size: 15px;
   font-family: Roboto;
   text-transform: uppercase;
-  padding: 0px;
-  margin: 0px;
-  padding-bottom: 20px;
-}
-.login{
-  float: right;
-  color: #fafafa;
-  font-family: Roboto;
-  font-size: 10px;
+  padding: 0 0 20px 0;
+  margin: 0;
 }
 
 .navbar{
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   max-width: 100%;
 }
+
 .navbar-nav{
   width:100%;
 }
 
-.navbar-brand{
-
+navbar-brand{
   padding: 20px;
   font-size: 30px;
 }
+
 a{
   text-decoration: none;
-  }
-  i{
-  padding:3px;
-  color: #fafafa;
-
-
 }
 
+i{
+  padding:3px;
+  color: #fafafa;
+}
 
 #navbarSupportedContent{
   margin-left: 50%;
@@ -102,53 +104,48 @@ a{
   font-size: 80px;
   font-weight: bold;
   text-align: center;
-  margin: 20px;
-  margin-bottom: 0px;
+  margin: 30px 20px 0 20px ;
   color: #fafafa;
   font-family: Roboto;
-  padding: 50px;
-  padding-top: 70px;
-
-
+  padding: 70px 50px 50px 50px;
 }
-aside{
-  border:1px solid black:
-  padding:100px;
+
+article{
+  border:1px solid black;
   width:600px;
-  height: 600px;
+  height: 500px;
   text-align: center;
-  margin-top: 20px;
-  margin-right: 100px;
+  margin-top: 20px 100px 0 0;
 }
+
 .tag{
   font-size: 40px;
   text-align: center;
   padding-top: 50px;
-  margin-top: none;
-  margin-left: 40px;
+  margin-top: 0 0 0 40px;
   color: #f1f1f1;
-  font-family: Roboto;
+  font-family: Roboto;serif;
   display: inline-block;
+  width:50%;
 }
-@media (min-width: 375px - max-width:1132px;) {
-  #tag{
-    margin-left: 50%;
-  }
+.button{
+  margin-left: 250px;
+}
 
-}
+
+
 .quote{
   font-size: 20px;
   color: #f1f1f1;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif,helvetica;
   display: inline-block;
   padding-bottom: 20px;
-
 }
+
 .btn{
-  padding: 10px;
-  margin: 10px;
+  padding: 10px 10px;
+  margin: 10px 10px;
 }
-
 
 .about {
   position: absolute;
@@ -161,13 +158,12 @@ aside{
   height: 60px;
   width: 120px;
   background-color: orange;
-
   border-radius: 25px;
   animation-name: reports;
   animation-duration: 7s;
   animation-iteration-count: infinite;
-
 }
+
 @keyframes reports {
   from {float: left;}
   to{float: right;}
@@ -176,6 +172,7 @@ aside{
 #reports{
   padding:15px;
 }
+
 .qof{
   height: 60px;
   width: 120px;
@@ -184,18 +181,17 @@ aside{
   animation-name: qof;
   animation-duration: 6s;
   animation-iteration-count: infinite;
-
-
 }
+
 @keyframes qof {
   from {float: left;}
   to{float: right;}
 }
 
-}
 #qof{
   padding:15px;
 }
+
 .protocols{
   height: 60px;
   width: 120px;
@@ -205,9 +201,9 @@ aside{
   animation-name: protocols;
   animation-duration: 5s;
   animation-direction: normal;
-
-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
+
 @keyframes protocols {
   from {float: left;}
   to{float: right;}
@@ -226,9 +222,9 @@ animation-iteration-count: infinite;
   animation-name: templates;
   animation-duration: 4s;
   animation-direction: normal;
-
-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
+
 @keyframes templates {
   from {float: left;}
   to{float: right;}
@@ -238,32 +234,27 @@ animation-iteration-count: infinite;
   padding:15px;
 }
 .confused{
-
   color: #fafafa;
   margin-top: 13px;
-
 }
-.confused1{
 
+.confused1{
   color: #fafafa;
   margin-top: 100px;
-
 }
+
 .fa-youtube{
   font-size: 50px;
   color: #fafafa;
-
 }
+
 .side{
   padding-left: 20px;
 }
 
-
-
 .img{
 
   position: absolute;
-
   max-width: 100%;
   opacity: 0.5;
   filter: alpha(opacity=50);
@@ -276,26 +267,10 @@ animation-iteration-count: infinite;
 
 }
 
-
-
-.img2{
-  z-index: -1;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  max-width: 100%;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
-  padding-top: 90px;
-  padding-bottom: 130px;
-
-
-}
-
 footer{
   max-height: 209px;
   background-color: #525252;
-  margin-bottom: 0px;
+  margin-bottom:100px 0;
 }
 
 .badge{
@@ -304,17 +279,10 @@ footer{
   font-size: 20px;
   font-family: Roboto;
   padding: 10px;
-  padding-bottom: 0px;
-
-
-}
-@media only screen and (max-width: 600px) {
-  badge {
-    width: 100%;
-  }
+  padding-bottom: 0;
 }
 
-}
+
 
 #find{
   float: right;
@@ -322,27 +290,20 @@ footer{
   font-size: 20px;
   font-family: Roboto;
   padding: 10px;
-  padding-bottom: 0px;
-  margin: 0px;
-
+  padding-bottom: 0;
+  margin: 0;
 }
+
 .social{
   float: right;
-
   color: #fafafa;
   font-size: 20px;
   font-family: Roboto;
-  padding: 10px;
-
-
+  padding:10px;
 }
-.icons{
-  float: right;
-  padding-top: 5px;
 
-
-}
 .icon{
+  float: right;
   padding: 20px;
   font-size: 30px;
   margin-left: 90%
@@ -357,42 +318,41 @@ h3{
   color: #B4BABC;
   margin-bottom: 20px;
 }
+
 h4{
   font-size: 20px;
   color: #B4BABC;
   margin-left: 10px;
-
-
 }
+
 .contact{
   background-image: linear-gradient(to bottom, #303334, #4e5253, #6e7374, #909697, #b4babc);
   height: 500px;
   max-width: 100%;
 }
+
 #fullname{
   border-radius: 5px;
   width: 350px;
-  margin-bottom: 20px;
-  margin-left: 10px;
+  margin-bottom: 0 0 20px 10px;
 
 }
+
 #emailaddress{
   border-radius: 5px;
   width: 350px;
-  margin-bottom: 20px;
-  margin-left: 10px;
+  margin-bottom: 0 0 20px 10px;
+
 }
+
 #Additional-info{
-  padding: 20px;
-  padding-right: 0px;
-  margin: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding: 20px 0 20px 20px;
+  margin: 20px 20px 0 20px;
   border-radius: 5px;
   background-color: #B4BABC;
   border-color: #303334;
-
 }
+
 #submit{
   background-color: #E1AD3D;
   border-radius: 5px;
@@ -507,4 +467,82 @@ iframe{
   color: red;
   transition-delay: 0.3s;
   transition-duration: 0.5s;
+}
+@media only screen and (max-width: 600px) {
+  col {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .tag {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    padding: 0 15 0 15;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #find {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .button{
+    display: inline-block;
+    padding: 40px;
+    text-align: center;
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  footer{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+  }
+}
+@media only screen (min-width: 300px)and (max-width: 600px) {
+  .icon{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+
+  }
+}
+@media only screen and (max-width: 600px) {
+  .social{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+    background-color: #525252;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .badge {
+    font-style: 20px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    background-color: #525252;
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 601px) {
+  main {
+    width: 100%;
+
+  }
 }
